@@ -1,0 +1,16 @@
+.App-logo {
+    animation: App-logo-sway infinite 3s ease-in-out;
+    height: 80px;
+}
+
+@keyframes App-logo-sway {
+    0% {
+        transform: translateX(-3px);
+    }
+    50% {
+        transform: translateX(3px);
+    }
+    100% {
+        transform: translateX(-3px);
+    }
+}
