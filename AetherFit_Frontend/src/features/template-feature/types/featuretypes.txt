@@ -1,0 +1,1 @@
+This folder will contain the feature specific types to be used in the module.

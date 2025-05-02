@@ -1,6 +1,5 @@
 body {
   margin: 0 auto;
-
 }
 
 .login-page {
@@ -11,7 +10,6 @@ body {
   align-items: center;
   background-color: #f0f8ff;
 }
-
 
 .wrapper-wrapper-div {
   border-radius: 50px;
@@ -27,9 +25,8 @@ body {
   text-align: center;
   border-radius: 51px;
   padding: 30px 20px;
-  border: 3px solid #add8e6; 
+  border: 3px solid #add8e6;
 }
-
 
 .aether-logo {
   height: 200px;
@@ -37,6 +34,11 @@ body {
   margin: 0 auto 20px auto;
 }
 
+.login-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 
 .login-form input,
 .login-form button {
@@ -47,6 +49,7 @@ body {
   border: 2px solid #add8e6;
   outline: none;
   transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
 }
 
 .login-form input:focus,
@@ -63,7 +66,7 @@ body {
 }
 
 .content-wrapper {
-  flex: 1; 
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,18 +78,18 @@ body {
 
 @keyframes App-logo-sway {
   0% {
-      transform: translateX(-3px);
+    transform: translateX(-3px);
   }
   50% {
-      transform: translateX(3px);
+    transform: translateX(3px);
   }
   100% {
-      transform: translateX(-3px);
+    transform: translateX(-3px);
   }
 }
 
 .name {
-  font-family: 'Roboto', 'Courier New', Courier, monospace; 
+  font-family: "Roboto", "Courier New", Courier, monospace;
   color: #094885;
 }
 
@@ -97,7 +100,6 @@ body {
   padding: 10px 0;
 }
 
-.github-logo{
+.github-logo {
   height: 50px;
-  
 }

@@ -1,0 +1,1 @@
+This folder will contain the feature specific hooks to be used in the module.

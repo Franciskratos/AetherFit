@@ -1,0 +1,1 @@
+This folder will contain the feature specific stores to be used in the module.
