@@ -1,3 +1,6 @@
+# AetherFit Design
+[Figma](https://www.figma.com/design/80dKuOnrDHoCrOuqRnquGj/AetherFit?m=auto&t=D5d5SiMUiM9lloj6-6)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
